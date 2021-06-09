@@ -79,7 +79,11 @@ body{
     padding: 20px;
 }
 
-.lancamento-text .sinopse-mobile{
+.sinopse{
+    overflow: auto;
+    height: 200px;
+}
+.sinopse::-webkit-scrollbar{
     display: none;
 }
 
@@ -173,11 +177,12 @@ body{
     margin-bottom: 20px;
 }
 
-.social img{
-    width: 32px;
-    background-color: whitesmoke;
-    border-radius: 50px;
-    margin: 5px;
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.social svg{
+    margin: 0 5px;
 }
 
 .linha-baixo{
@@ -273,12 +278,6 @@ body{
     .trailer iframe{
         height: 250px;
     }
-    .lancamento-text .sinopse-mobile{
-        display: block;
-    }
-    .lancamento-text .sinopse-pc{
-        display: none;
-    }
     .entrevista iframe{
         height: 250px;
     }
@@ -296,12 +295,6 @@ body{
         margin-left: 0px;
         width: 100%;
     }
-    .lancamento-text .sinopse-mobile{
-        display: block;
-    }
-    .lancamento-text .sinopse-pc{
-        display: none;
-    }
     .medium-hide{
         display: none;
     }
@@ -315,11 +308,5 @@ body{
     .carousel-item{
         margin-left: 0px;
         width: 100%;
-    }
-    .lancamento-text .sinopse-mobile{
-        display: block;
-    }
-    .lancamento-text .sinopse-pc{
-        display: none;
     }
 }
