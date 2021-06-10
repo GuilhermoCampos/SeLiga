@@ -102,16 +102,30 @@
 
                         <div class="col-sm-6 col-md-4 col-lg-2 seletor" >
                             <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button id="catGen" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
                                 Categoria: TODOS
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item" href="#">Ação</a></li>
-                                <li><a class="dropdown-item" href="#">Aventura</a></li>
-                                <li><a class="dropdown-item" href="#">Romance</a></li>
-                                <li><a class="dropdown-item" href="#">Comédia</a></li>
+                                <li><a id="genAcao" class="dropdown-item">Ação</a></li>
+                                <li id="genAventura"><a class="dropdown-item">Aventura</a></li>
+                                <li><a id="genRomance" class="dropdown-item">Romance</a></li>
+                                <li><a id="genComedia" class="dropdown-item">Comédia</a></li>
+                                <li><a id="genAnima" class="dropdown-item">Animação</a></li>
+                                <li><a id="genCrime" class="dropdown-item">Crime</a></li>
+                                <li><a id="genDoc" class="dropdown-item">Documentário</a></li>
+                                <li><a id="genDrama" class="dropdown-item">Drama</a></li>
+                                <li><a id="genFamilia" class="dropdown-item">Familia</a></li>
+                                <li><a id="genFanta" class="dropdown-item">Fantasia</a></li>
+                                <li><a id="genHist" class="dropdown-item">História</a></li>
+                                <li><a id="genHorror" class="dropdown-item">Horror</a></li>
+                                <li><a id="genMusica" class="dropdown-item">Musical</a></li>
+                                <li><a id="genMisterio" class="dropdown-item">Mistério</a></li>
+                                <li><a id="genSciFi" class="dropdown-item">Ficção Ciêntifica</a></li>
+                                <li><a id="genGerra" class="dropdown-item">Guerra</a></li>
+                                <li><a id="genVelho" class="dropdown-item">Velho-Oeste</a></li>
+                                <li><a id="genSus" class="dropdown-item">Suspense</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Todos</a></li>
+                                <li><a id="genTodos" class="dropdown-item">Todos</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -119,20 +133,14 @@
 
                     <!-- Itens de destaque -->
 
-                    <div class="row destaques-img">
-
-
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <a href="#"><img src="" alt=""></a>
-                        </div>
-
+                    <div id="addPoster" class="row destaques-img">
 
                     </div>
                     <div class="row">
                         <div class="col-lg-9">
-
+                            <span style="display: none;"></span>
                         </div>
-                        <div class="col-lg-3 carregar-mais">
+                        <div id="maisDestaque" class="col-lg-3 carregar-mais">
                             <button type="button" class="btn btn-dark">+ Carregar mais Filmes</button>
                         </div>
                     </div>
